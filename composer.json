@@ -1,0 +1,21 @@
+{
+    "name": "synsei/example",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Synner"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.4"
+    },
+    "require-dev": {
+    	
+    },
+    "autoload": {
+   	"psr-4": {
+	    "Synsei\\Example\\": "src/"
+	}	
+    }
+}
